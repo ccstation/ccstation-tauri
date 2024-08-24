@@ -33,7 +33,7 @@
   },
   "plugins": {
     "updater": {
-      "endpoints": ["RAW GITHUB URL OF THE latest.json FILE OR RAW URL OF THE GITHUB GIST"],
+      "endpoints": ["https://gist.githubusercontent.com/ccstation/b9d663460ed6fa46bf16b503588bec32/raw/ecc98d4dfe680631f7765a888ceeac9d4148fd22/ccstation-tauri-latest.json"],
       "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDE5MDFENzA5NDA5OTlBREMKUldUY21wbEFDZGNCR1pxQTZwbFJKbUpuNWs1RTdOc1VXTFFKUUtsZlpPck9MNTIrNkFkNXZ3YysK%"
     }
   }
