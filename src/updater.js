@@ -2,7 +2,11 @@
 import { check } from '@tauri-apps/plugin-updater';
 import { ask, message } from '@tauri-apps/plugin-dialog';
 
-async function checkForAppUpdates(onUserClick: false) {
+/**
+ * @param {Boolean} onUserClick
+ */
+async function checkForAppUpdates(onUserClick) {
+  console.log("updater11.js")
   const update = await check();
   if (update === null) {
 			await message('Failed to check for updates.\nPlease try again later.', { 
