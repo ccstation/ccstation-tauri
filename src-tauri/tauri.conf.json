@@ -1,0 +1,40 @@
+{
+  "productName": "ccstation-tauri",
+  "version": "0.1.0",
+  "identifier": "com.ccstation-tauri.app",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://localhost:1420",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../build"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "ccstation-tauri",
+        "width": 800,
+        "height": 600
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ]
+  },
+  "plugins": {
+    "updater": {
+      "endpoints": ["RAW GITHUB URL OF THE latest.json FILE OR RAW URL OF THE GITHUB GIST"],
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDE5MDFENzA5NDA5OTlBREMKUldUY21wbEFDZGNCR1pxQTZwbFJKbUpuNWs1RTdOc1VXTFFKUUtsZlpPck9MNTIrNkFkNXZ3YysK%"
+    }
+  }
+}
